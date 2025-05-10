@@ -1,2 +1,2 @@
 # landing-page
-Simple yet nice looking landing page
+Simple and nice looking landing page
