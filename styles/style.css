@@ -19,3 +19,11 @@ body {
 .footer {
     display: flex;
 }
+
+.footer {
+    justify-content: center;
+    align-items: center;
+    background-color: #1F2937;
+    font-size: 18px;
+    color: #E5E7EB;
+}
