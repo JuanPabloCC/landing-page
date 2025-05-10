@@ -10,3 +10,12 @@ body {
 * {
     border: solid 1px red;
 }
+
+.header,
+.container-one,
+.container-two,
+.container-three,
+.container-four,
+.footer {
+    display: flex;
+}
