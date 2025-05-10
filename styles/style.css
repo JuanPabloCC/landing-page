@@ -20,6 +20,12 @@ body {
     display: flex;
 }
 
+.header {
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1F2937;
+}
+
 .footer {
     justify-content: center;
     align-items: center;
