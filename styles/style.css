@@ -104,3 +104,13 @@ h1 {
     border:solid #3882F6;
     border-radius: 5px;
 }
+
+.container-three {
+    background-color: #E5E7EB;
+    align-items: center;
+}
+
+.testimonial-sign {
+    text-align: end;
+    font-weight: bold;
+}
