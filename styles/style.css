@@ -7,8 +7,14 @@ body {
     justify-content: space-between;
 }
 
-* {
+/* * {
     border: solid 1px red;
+} */
+
+button {
+    background-color: #3882F6;
+    color: white;
+    font-weight: bold;
 }
 
 .header,
@@ -20,6 +26,13 @@ body {
     display: flex;
 }
 
+.container-one,
+.container-two,
+.container-three,
+.container-four {
+    flex: 1;
+}
+
 .header,
 .footer {
     background-color: #1F2937;
@@ -27,6 +40,7 @@ body {
     color: #E5E7EB;
     align-items: center;
 }
+
 .header {
     justify-content: space-between;
 }
@@ -38,4 +52,18 @@ body {
 .header-links {
     display: flex;
     gap:8px;
+}
+
+.container-one {
+    background-color: #1F2937;
+    display: flex;
+    border: solid 1px red;
+}
+
+.hero-main-text {
+    flex:   1;
+}
+
+img {
+    flex: 1;
 }
