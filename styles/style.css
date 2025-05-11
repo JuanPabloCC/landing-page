@@ -74,3 +74,8 @@ h1 {
     flex:   1;
 }
 
+.image-placeholder {
+    width: 50%;
+    background-color: grey;
+}
+
