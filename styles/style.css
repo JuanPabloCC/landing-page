@@ -25,6 +25,7 @@ h1 {
     font-size: 48px;
     font-weight: 900;
     color: #F9FAF8;
+    margin: 0px;
 }
 
 .header,
@@ -34,14 +35,15 @@ h1 {
 .container-four,
 .footer {
     display: flex;
+    padding: 50px 200px;
 }
 
-.container-one,
+/* .container-one,
 .container-two,
 .container-three,
 .container-four {
     flex: 1;
-}
+} */
 
 .header,
 .footer {
@@ -49,12 +51,13 @@ h1 {
     align-items: center;
 }
 
-.header {
-    justify-content: space-between;
-}
-
 .footer {
     justify-content: center;
+}
+
+.header {
+    justify-content: space-between;
+    padding-top: 20px;
 }
 
 .header-links {
@@ -66,33 +69,48 @@ h1 {
     background-color: #1F2937;
     display: flex;
     /* border: solid 1px red; */
+    gap: 8px;
 }
 
 .hero-text {
-    flex:   1;
+    flex: 1;
+    /* border: solid 1px red; */
 }
 
 .image-placeholder {
     width: 50%;
     background-color: grey;
+    /* border: solid 1px red; */
+}
+
+.hero-text button {
+    margin-top: 10px;
 }
 
 .container-two {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    gap: 16px;
+    gap: 60px;
     color: #1F2937;
+    /* border: solid 1px purple; */
+    
 }
 
 .information-header {
     font-size: 36px;
     font-weight: 900;
+    /* border: solid 1px purple; */
+    text-align: center;
 }
 
 .cards-container {
     display: flex;
     text-align: center;
+    /* border: solid 1px purple; */
+    gap: 40px;
+    flex-wrap: wrap;
+    justify-content: center;
 
 }
 
@@ -100,29 +118,39 @@ h1 {
     display: flex;
     flex-direction: column;
     align-items: center;
+    /* border: solid 1px purple; */
 }
 
 .cards-img-placeholders {
-    width: 110px;
-    height: 100px;
+    width: 150px;
+    height: 150px;
     border:solid #3882F6;
     border-radius: 5px;
+    
+}
+
+.card-text {
+    width: 150px;
 }
 
 .container-three {
     background-color: #E5E7EB;
     align-items: center;
-    color: #1F2937
+    color: #1F2937;
+    /* border: solid 2px green; */
+    justify-content: center;
 }
 
 .testimonial-sign {
     text-align: end;
     font-weight: bold;
+    /* border: solid 2px green; */
 }
 
 .container-four{
     justify-content: center;
     padding: 64px 0px;
+    border: solid 2px yellow;
 }
 
 .call-to-action-container {
@@ -131,15 +159,19 @@ h1 {
     gap: 96px;
     background-color: #3882F6;
     border-radius: 5px;
-    width: 80%;
+    width: 40%;
+    height: 100px;
     justify-content: center;
+    border: solid 2px yellow;
+    padding: 20px;
 }
 
 .call-to-action-container button {
     border: 2px solid #F9FAF8;
+    
 }
 
 .call-to-action-title {
     font-weight: bold;
-
+    /* border: solid 2px yellow; */
 }
