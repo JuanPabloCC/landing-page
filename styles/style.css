@@ -5,6 +5,7 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    color: white;
 }
 
 /* * {
@@ -15,10 +16,9 @@ button {
     background-color: #3882F6;
     color: white;
     font-weight: bold;
-}
-
-img {
-    flex: 1;
+    border-radius: 5px;
+    padding: 8px 20px;
+    border: none;
 }
 
 h1 {
@@ -46,8 +46,6 @@ h1 {
 .header,
 .footer {
     background-color: #1F2937;
-    font-size: 18px;
-    color: #E5E7EB;
     align-items: center;
 }
 
@@ -84,6 +82,12 @@ h1 {
     align-items: center;
     justify-content: center;
     gap: 16px;
+    color: #1F2937;
+}
+
+.information-header {
+    font-size: 36px;
+    font-weight: 900;
 }
 
 .cards-container {
@@ -108,9 +112,33 @@ h1 {
 .container-three {
     background-color: #E5E7EB;
     align-items: center;
+    color: #1F2937;
 }
 
 .testimonial-sign {
     text-align: end;
     font-weight: bold;
+}
+
+.container-four{
+    justify-content: center;
+    padding: 64px 0px;
+}
+.call-to-action-container {
+    display: flex;
+    align-items: center;
+    gap: 96px;
+    background-color: #3882F6;
+    border-radius: 5px;
+    width: 80%;
+    justify-content: center;
+}
+
+.call-to-action-container button {
+    border: 2px solid #F9FAF8;
+}
+
+.call-to-action-title {
+    font-weight: bold;
+
 }
