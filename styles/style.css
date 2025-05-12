@@ -28,6 +28,12 @@ h1 {
     margin: 0px;
 }
 
+ul {
+    display: flex;
+    list-style-type: none;
+    gap: 20px;
+}
+
 .header,
 .container-one,
 .container-two,
@@ -37,13 +43,6 @@ h1 {
     display: flex;
     padding: 50px 200px;
 }
-
-/* .container-one,
-.container-two,
-.container-three,
-.container-four {
-    flex: 1;
-} */
 
 .header,
 .footer {
@@ -58,11 +57,13 @@ h1 {
 .header {
     justify-content: space-between;
     padding-top: 20px;
+    /* border: solid 1px red; */
 }
 
 .header-links {
     display: flex;
     gap:8px;
+    /* border: solid 1px red; */
 }
 
 .container-one {
@@ -150,7 +151,7 @@ h1 {
 .container-four{
     justify-content: center;
     padding: 64px 0px;
-    border: solid 2px yellow;
+    /* border: solid 2px yellow; */
 }
 
 .call-to-action-container {
@@ -159,10 +160,10 @@ h1 {
     gap: 96px;
     background-color: #3882F6;
     border-radius: 5px;
-    width: 40%;
+    width: 50%;
     height: 100px;
     justify-content: center;
-    border: solid 2px yellow;
+    /* border: solid 2px yellow; */
     padding: 20px;
 }
 
