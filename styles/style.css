@@ -58,6 +58,7 @@ ul {
     justify-content: space-between;
     padding-top: 20px;
     /* border: solid 1px red; */
+    flex-wrap: wrap;
 }
 
 .header-links {
@@ -71,6 +72,7 @@ ul {
     display: flex;
     /* border: solid 1px red; */
     gap: 8px;
+    flex-wrap: wrap;
 }
 
 .hero-text {
